@@ -8,10 +8,9 @@ public class CrawlerLogFolder {
                 result = result == 0 ? result : result - 1;
                 continue;
             }
-            if (log.equals("./")) {
-                continue;
+            if (!log.equals("./")) {
+                result++;
             }
-            result++;
         }
         return result;
     }
