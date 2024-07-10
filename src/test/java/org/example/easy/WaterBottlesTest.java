@@ -14,7 +14,7 @@ public class WaterBottlesTest {
             "23,4,30",
             "1,2,1",
             "100,100,101"})
-    public void waterBottles(int numBottles, int numExchange, int expected) {
+    public void waterBottlesTest(int numBottles, int numExchange, int expected) {
         assertEquals(expected, WaterBottles.waterBottles(numBottles, numExchange));
     }
 }
